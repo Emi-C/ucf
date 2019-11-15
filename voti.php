@@ -1,6 +1,6 @@
 <?php
 $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "/wp-load.php";
+   $path .= "/carteconti/wp-load.php";
    include_once($path);
 
 $ip=$_SERVER['REMOTE_ADDR'];

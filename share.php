@@ -1,6 +1,9 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "/wp-load.php";
+   $path .= "/carteconti/wp-load.php";
    include_once($path);
 
 $art=$_POST["art"];

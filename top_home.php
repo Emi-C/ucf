@@ -7,12 +7,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta http-equiv="Content-Language" content="it">
 
-		<title><?php wp_title(''); ?></title>	
+		<title><?php wp_title(''); ?></title>
 		<meta name="author" content="UniCoffee">
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="/wp-content/themes/unicoffee/img/favicon.ico?v1" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="/wp-content/themes/unicoffee/img/apple-touch-icon.png?v1">
+		<link rel="shortcut icon" href="/carteconti/wp-content/themes/carteconti/img/favicon.ico?v1" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="/carteconti/wp-content/themes/carteconti/img/apple-touch-icon.png?v1">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -21,21 +21,30 @@
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,700|Ovo' rel='stylesheet' type='text/css'>
 
 		<!-- Vendor CSS -->
-		<link rel="stylesheet" href="/wp-content/themes/unicoffee/css/bootstrap.min.css">
-		<link rel="stylesheet" href="/wp-content/themes/unicoffee/css/bootstrap-theme.min.css">
-		<link rel="stylesheet" href="/wp-content/themes/unicoffee/css/font-awesome/css/font-awesome.min.css">
-	
+		<link rel="stylesheet" href="/carteconti/wp-content/themes/carteconti/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/carteconti/wp-content/themes/carteconti/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="/carteconti/wp-content/themes/carteconti/css/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/carteconti/wp-content/themes/carteconti/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="/carteconti/wp-content/themes/carteconti/css/owl.theme.default.min.css">
+
 		<!-- Head Libs -->
-		<script src="/wp-content/themes/unicoffee/js/vendor/modernizr.min.js"></script>
-		<script src="/wp-content/themes/unicoffee/js/vendor/jquery-1.11.2.min.js"></script>
+		<script src="/carteconti/wp-content/themes/carteconti/js/vendor/modernizr.min.js"></script>
+		<script src="/carteconti/wp-content/themes/carteconti/js/vendor/jquery-1.11.2.min.js"></script>
+
+		<!-- RS5.0 Main Stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/carteconti/wp-content/themes/carteconti/revolution/css/settings.css">
+
+		<!-- RS5.0 Layers and Navigation Styles -->
+		<link rel="stylesheet" type="text/css" href="/carteconti/wp-content/themes/carteconti/revolution/css/layers.css">
+		<link rel="stylesheet" type="text/css" href="/carteconti/wp-content/themes/carteconti/revolution/css/navigation.css">
 
 		<!-- Theme Custom CSS -->
-		<link rel="stylesheet" href="/wp-content/themes/unicoffee/style.css">
-		
+		<link rel="stylesheet" href="/carteconti/wp-content/themes/carteconti/style.css">
+
 		<?php wp_head(); ?>
-		
+
 		<meta property="fb:pages" content="465805060290380" />
-		
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

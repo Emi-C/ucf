@@ -10,16 +10,16 @@
 					<div class="row">
 						<div class="headerlogo">
 							<a href="/">
-								<img alt="UniCoffee" width="120" height="120" src="/wp-content/themes/unicoffee/img/logo.png" class="visible-lg">
-								<img alt="UniCoffee" width="90" height="90" src="/wp-content/themes/unicoffee/img/logo.png" class="visible-sm visible-md">
-								<img alt="UniCoffee" width="80" height="80" src="/wp-content/themes/unicoffee/img/logo.png" class="visible-xs">
+								<img alt="UniCoffee" width="120" height="120" src="/carteconti/wp-content/themes/carteconti/img/logo.png" class="visible-lg">
+								<img alt="UniCoffee" width="90" height="90" src="/carteconti/wp-content/themes/carteconti/img/logo.png" class="visible-sm visible-md">
+								<img alt="UniCoffee" width="80" height="80" src="/carteconti/wp-content/themes/carteconti/img/logo.png" class="visible-xs">
 							</a>
 						</div>
-						
+
 						<div class="header">
-												
+
 							<a class="btnmenu hidden-md hidden-lg"><i class="fa fa-bars"></i></a>
-							
+
 							<div class="mobmenu">
 								<div class="container">
 									<div class="row">
@@ -45,11 +45,11 @@
 									</div>
 								</div>
 							</div>
-							
-							
-							
+
+
+
 							<div class="header-search hidden-xs hidden-sm">
-								<div class="topsearch">									
+								<div class="topsearch">
 									<a class="searchtg"><i class="fa fa-search"></i></a>
 									<form id="searchForm" class="formsearch" action="http://www.unicoffee.it/" role="search">
 										<div class="forms">
@@ -57,9 +57,9 @@
 											<span class="subsearch"><i class="fa fa-search"></i></span>
 										</div>
 									</form>
-								</div>								
+								</div>
 							</div>
-						
+
 							<div class="header-social hidden-xs hidden-sm">
 								<ul class="social-icons">
 									<li class="social-icons-facebook"><a href="https://www.facebook.com/unicoffeemag/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
@@ -68,51 +68,51 @@
 									<li class="social-icons-instagram hidden-lg"><a href="https://www.instagram.com/unicoffeemag/" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
 								</ul>
 							</div>
-							
+
 							<div class="menu hidden-xs hidden-sm">
 								<ul class="menu-voci">
 									<li class="sport">
 										<a class="evid" href="/sport">
 											Sport
-										</a>											
+										</a>
 									</li>
-									
+
 									<li class="cult">
 										<a class="evid" href="/cultura">
 											Cultura
-										</a>											
+										</a>
 									</li>
-									
+
 									<li class="cinema">
 										<a class="evid" href="/cinema">
 											Cinema
-										</a>											
+										</a>
 									</li>
-									
+
 									<li class="moda">
 										<a class="evid" href="/moda">
 											Moda
-										</a>											
+										</a>
 									</li>
-									
+
 									<li class="food">
 										<a class="evid" href="/alimentazione">
 											Alimentazione
-										</a>													
+										</a>
 									</li>
-									
+
 									<li class="econom">
 										<a class="evid" href="/economia">
 											Economia
-										</a>													
+										</a>
 									</li>
-									
+
 									<li class="arti">
 										<a class="evid" href="/arti">
 											Arti Visive
 										</a>
 									</li>
-									
+
 									<li class="innovazione">
 										<a class="evid" href="/innovazione">
 											Innovazione

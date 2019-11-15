@@ -256,21 +256,21 @@ margin-top:10px;
 display:inline-block;
 }
 .voti .voto{
-background:url('/wp-content/themes/unicoffee/img/voto2.png');
+background:url('/carteconti/wp-content/themes/carteconti/img/voto2.png');
 width:40px;
 height:40px;
 display:inline-block;
 }
 .voti .voto.voted{
-background:url('/wp-content/themes/unicoffee/img/voto1.png');
+background:url('/carteconti/wp-content/themes/carteconti/img/voto1.png');
 }
 
 .voti:hover .voto{
-background:url('/wp-content/themes/unicoffee/img/voto1.png');
+background:url('/carteconti/wp-content/themes/carteconti/img/voto1.png');
 cursor:pointer;
 }
 .voti .voto:hover ~ .voto{
-background:url('/wp-content/themes/unicoffee/img/voto2.png');
+background:url('/carteconti/wp-content/themes/carteconti/img/voto2.png');
 }
 
 .shareico{
@@ -399,7 +399,6 @@ border:0;
 color:#fafafa;
 text-decoration:none;
 }
-}
 
 /*h1 con riga*/
 .striped:before{
@@ -452,7 +451,6 @@ color:#fafafa;
 }
 .tgbtnx{
 float: right;
-display: inline-block;
 margin: 10px;
 font-size: 2em;
 color: #fafafa;
@@ -488,7 +486,6 @@ font-size: 1.6em;
 
 .header > div{
 float:right;
-display:inline-block;
 }
 
 .header-search{
@@ -1052,7 +1049,7 @@ font-size:5em;
 color:#e43624;
 }
 .ldn i.fa{
-display:inline!important!;
+display:inline!important;
 }
 @media (max-width: 768px){
 .ldn{
@@ -1089,7 +1086,6 @@ transition:all .5s;
 
 .addiobtnx{
 float: right;
-display: inline-block;
 margin: 10px;
 font-size: 2em;
 color: #fafafa;

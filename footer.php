@@ -1,4 +1,4 @@
-﻿			<div class="addio">
+﻿			<!--<div class="addio">
 				<div class="container">
 					<div class="row push-top">
 						<div class="addiobtnx"><i class="fa fa-times"></i></div>
@@ -6,22 +6,22 @@
 					<div class="row center">
 						<h1>Aspetta! Non scappare!</h1>
 						<div class="col-md-6 col-md-offset-3">
-							<img class="img-responsive" src="/wp-content/themes/unicoffee/img/batman.gif">
+							<img class="img-responsive" src="/carteconti/wp-content/themes/carteconti/img/batman.gif">
 						</div>
 					</div>
-					
+
 					<div class="row center">
 						<h2>Se ti piace UniCoffee perché non farne parte?</h2>
 						<a class="btn" href="http://www.unicoffee.it/scrivi-con-noi/">Scrivi con Noi! <i class="fa fa-paper-plane"></i></a>
 					</div>
-					
-					<!--<div class="row center">
+
+					<div class="row center">
 						<a class="deny">Non visualizzare più questa schermata :( </a>
-					</div>-->
-					
+					</div>
+
 				</div>
-			</div>
-			
+			</div>-->
+
 			<footer>
 				<div class="container">
 					<div class="row">
@@ -30,13 +30,13 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<div class="footer-content">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-2 col-md-offset-0 col-sm-4 col-sm-offset-2 col-xs-6 col-xs-offset-3">
 								<a href="/" class="logo">
-									<img alt="UniCoffee" class="img-responsive" src="/wp-content/themes/unicoffee/img/logo_w.png">
+									<img alt="UniCoffee" class="img-responsive" src="/carteconti/wp-content/themes/carteconti/img/logo_w.png">
 								</a>
 							</div>
 							<div class="clearfix visible-xs"></div>
@@ -65,7 +65,7 @@
 				</div>
 			</footer>
 			<div id="totop"><i class="fa fa-chevron-up"></i></div>
-			
-			
-			
-		</div><!-- chiudo div body-->		
+
+
+
+		</div><!-- chiudo div body-->
