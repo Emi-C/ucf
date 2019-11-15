@@ -437,6 +437,22 @@ z-index:99;
 position:absolute;
 top:10px;
 }
+.logo{
+    width: 120px;
+    height:120px;
+}
+@media (max-width: 1199px){
+    .logo{
+        width: 90px;
+        height:90px;
+    }
+}
+@media (max-width: 767px){
+    .logo{
+        width: 80px;
+        height:80px;
+    }
+}
 
 .btnmenu{
 float: right;
