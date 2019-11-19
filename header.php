@@ -5,9 +5,7 @@
 					<div class="row">
 						<div class="headerlogo">
 							<a href="/">
-								<img alt="UniCoffee" width="120" height="120" src="/carteconti/wp-content/themes/carteconti/img/logo.png" class="visible-lg">
-								<img alt="UniCoffee" width="90" height="90" src="/carteconti/wp-content/themes/carteconti/img/logo.png" class="visible-sm visible-md">
-								<img alt="UniCoffee" width="80" height="80" src="/carteconti/wp-content/themes/carteconti/img/logo.png" class="visible-xs">
+								<img alt="CarteConti" width="120" height="120" src="/carteconti/wp-content/themes/carteconti/img/logo.png" class="logo">
 							</a>
 						</div>
 

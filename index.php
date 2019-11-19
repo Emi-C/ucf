@@ -1,15 +1,13 @@
-<?PHP 
-include('top_home.php');
+<?PHP
+include('top.php');
 
-include('home_header.php');
+include('header.php');
 
-include('home_slider.php');
+include('home_content.php');
 
-include('home_mix.php');
-
-include('home_novita.php');
+include('single_sidebar.php');
 
 include('footer.php');
 
-include('bottom_home.php');
+include('bottom.php');
 ?>

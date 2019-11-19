@@ -12,7 +12,7 @@
 
 					<div class="row center">
 						<h2>Se ti piace UniCoffee perché non farne parte?</h2>
-						<a class="btn" href="http://www.unicoffee.it/scrivi-con-noi/">Scrivi con Noi! <i class="fa fa-paper-plane"></i></a>
+						<a class="btn" href="/scrivi-con-noi/">Scrivi con Noi! <i class="fa fa-paper-plane"></i></a>
 					</div>
 
 					<div class="row center">
@@ -26,7 +26,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="footer-ribbon">
-							<a href="http://www.unicoffee.it/scrivi-con-noi/"><span>Scrivi con Noi! <i class="fa fa-paper-plane"></i></span></a>
+							<a href="mailto:aaa@bbb.it"><span>Scrivici! <i class="fa fa-paper-plane"></i></span></a>
 						</div>
 					</div>
 				</div>
@@ -36,19 +36,18 @@
 						<div class="row">
 							<div class="col-md-2 col-md-offset-0 col-sm-4 col-sm-offset-2 col-xs-6 col-xs-offset-3">
 								<a href="/" class="logo">
-									<img alt="UniCoffee" class="img-responsive" src="/carteconti/wp-content/themes/carteconti/img/logo_w.png">
+									<img alt="Carte Conti" class="img-responsive" src="/carteconti/wp-content/themes/carteconti/img/logo_w.png">
 								</a>
 							</div>
 							<div class="clearfix visible-xs"></div>
 							<div class="col-md-3 col-sm-4 push-top center">
-								<p>&copy; Copyright 2016.</p>
+								<p>&copy; Copyright <?php echo date("Y")?>.</p>
 							</div>
 							<div class="clearfix visible-sm"></div>
 							<div class="col-md-5 col-sm-6 push-top center">
 								<ul class="serfoot">
-									<li><a class="evid" href="http://www.unicoffee.it/about-us/">About Us</a></li>
-									<li><a class="evid" href="http://www.unicoffee.it/contatti/">Contatti</a></li>
-									<li><a class="evid" href="http://www.unicoffee.it/partner/">Partner</a></li>									<li><a class="evid" href="http://www.unicoffee.it/wp-admin/">Accedi</a></li>
+									<li><a class="evid" href="/about-us/">About Us</a></li>
+									<li><a class="evid" href="/wp-admin/" target="_blank">Accedi</a></li>
 								</ul>
 							</div>
 							<div class="col-md-2 col-sm-6 push-top center">

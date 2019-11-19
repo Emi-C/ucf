@@ -6,16 +6,16 @@ Author: Emi
 Tags: development
 */
 body{
-font-family:'Lato',arial,sans-serif;
+font-family:'Montserrat',calibri,sans-serif;
 }
 h1,h2,h3,h4,h5,h6,blockquote{
-font-family:'Ovo',cambria,serif;
+font-family:'Fira Sans Condensed',arial,sans-serif;
 }
 p, ul{
 color:#222;
 }
 a{
-color:#e43624;
+color:#004063;
 }
 a:hover,a:focus{
 color:#c03a31;
@@ -160,33 +160,8 @@ opacity:1;
 }
 }
 
-.cult .icona{
+.icona{
 background-color:rgba(192, 58, 49, .6);
-}
-.sport .icona{
-background-color:rgba(60, 152, 217, .6);
-}
-.econom .icona{
-background-color:rgba(44, 186, 154, .6);
-}
-.food .icona{
-background-color:rgba(231, 125, 50, .6);
-}
-.arti .icona{
-background-color:rgba(52, 73, 92, .6);
-}
-.cinema .icona{
-background-color:rgba(240, 196, 48, .6);
-}
-.moda .icona{
-background-color:rgba(154, 91, 179, .6);
-}
-.innovazione .icona{
-background-color:rgba(0, 102, 0, .6);
-}
-
-.tab-content{
-border-top: 1px solid #EEE;
 }
 
 @media (max-width: 991px){
@@ -212,33 +187,9 @@ height:75px;
 width:75px;
 }
 
-.tab-content.sport{
-	border:1px solid #3c98d9;
-}
-.tab-content.cultura{
-	border:1px solid #c03a31;
-}
-.tab-content.cinema{
-	border:1px solid #f0c430;
-}
-.tab-content.moda{
-	border:1px solid #9a5bb3;
-}
-.tab-content.alimentazione{
-	border:1px solid #e77d32;
-}
-.tab-content.economia{
-	border:1px solid #2cba9a;
-}
-.tab-content.arti{
-	border:1px solid #34495c;
-}
-.tab-content.innovazione{
-	border:1px solid #006600;
-}
-.tab-content.tabshare{
-	border:1px solid #c03a31;
-	padding:5px;
+.tab-content{
+    border:1px solid #c03a31;
+    padding:5px;
 }
 
 .owlwrpnov{
@@ -295,6 +246,10 @@ height:45px;
 color:#fafafa;
 border-color:#e74b3b;
 background-color:#e74b3b;
+}
+
+.navileft{
+    display:block;
 }
 
 .sort-source li{
@@ -390,7 +345,7 @@ margin-bottom:30px;
 .btn{
 padding:10px 30px;
 color:#fafafa;
-background:#e43624;
+background:#004063;
 font-size:1em;
 border-radius:0;
 border:0;
@@ -436,6 +391,22 @@ z-index:99;
 .headerlogo{
 position:absolute;
 top:10px;
+}
+.logo{
+    width: 120px;
+    height:120px;
+}
+@media (max-width: 1199px){
+    .logo{
+        width: 90px;
+        height:90px;
+    }
+}
+@media (max-width: 767px){
+    .logo{
+        width: 80px;
+        height:80px;
+    }
 }
 
 .btnmenu{
@@ -616,58 +587,18 @@ font-weight: bold;
 color:#fafafa;
 }
 
-.menu-voci li.sport a{
+.menu-voci li a{
 color:#3c98d9;
 }
-.menu-voci li.cult a{
-color:#c03a31;
-}
-.menu-voci li.cinema a{
-color:#f0c430;
-}
-.menu-voci li.moda a{
-color:#9a5bb3;
-}
-.menu-voci li.food a{
-color:#e77d32;
-}
-.menu-voci li.econom a{
-color:#2cba9a;
-}
-.menu-voci li.arti a{
-color:#34495c;
-}
-.menu-voci li.innovazione a{
-color:#006600;
-}
+
 .menu-voci li:hover a,.menu-voci li.active a,.voci li:hover a,.voci li.active a{
 color:#fff;
 text-decoration:none;
 }
-.menu-voci li.sport:hover a,.menu-voci li.sport.active a,.voci li.sport.active a{
+.menu-voci li:hover a,.menu-voci li.active a,.voci li.active a{
 background-color:#3c98d9;
 }
-.menu-voci li.cult:hover a,.menu-voci li.cult.active a,.voci li.cult.active a{
-background-color:#c03a31;
-}
-.menu-voci li.cinema:hover a,.menu-voci li.cinema.active a,.voci li.cinema.active a{
-background-color:#f0c430;
-}
-.menu-voci li.moda:hover a,.menu-voci li.moda.active a,.voci li.moda.active a{
-background-color:#9a5bb3;
-}
-.menu-voci li.food:hover a,.menu-voci li.food.active a,.voci li.food.active a{
-background-color:#e77d32;
-}
-.menu-voci li.econom:hover a,.menu-voci li.econom.active a,.voci li.econom.active a{
-background-color:#2cba9a;
-}
-.menu-voci li.arti:hover a,.menu-voci li.arti.active a,.voci li.arti.active a{
-background-color:#34495c;
-}
-.menu-voci li.innovazione:hover a,.menu-voci li.innovazione.active a,.voci li.innovazione.active a{
-background-color:#006600;
-}
+
 
 /*FINE MENU*/
 
@@ -694,7 +625,7 @@ line-height:25px;
 
 /*ISOTOPE*/
 .section-filtri{
-background:#d52b1a;
+background:#00334f;
 margin-bottom:30px;
 }
 .filtri{
@@ -718,7 +649,7 @@ width: 0;
 height: 0;
 border-left: 20px solid transparent;
 border-right: 20px solid transparent;
-border-top: 15px solid #d52b1a;
+border-top: 15px solid #00334f;
 content: " ";
 display: block;
 position: absolute;
@@ -749,8 +680,8 @@ height: auto;
 /*FOOTER*/
 footer{
 margin-top:30px;
-background:#e43624;
-border-top:5px solid #d52b1a;
+background:#004063;
+border-top:5px solid #00334f;
 font-size:.9em;
 }
 footer p, footer ul{
@@ -758,12 +689,12 @@ color:#fff;
 }
 .footer-ribbon{
 margin: -20px 0 0 70px;
-background:#d52b1a;
+background:#00334f;
 position: absolute;
 padding: 10px 20px 6px 20px;
 }
 .footer-ribbon:before{
-border-right: 10px solid #911e12;
+border-right: 10px solid #00263b;
 border-top: 16px solid transparent;
 content: "";
 display: block;
@@ -843,7 +774,7 @@ color:#fafafa;
 margin-bottom:15px;
 }
 .post-content a{
-color:#e43624;
+color:#004063;
 }
 .post-meta{
 margin-top:20px;
@@ -855,7 +786,7 @@ margin:30px 0;
 }
 .page-numbers{
 padding: 6px 14px;
-color: #e43624;
+color: #004063;
 text-decoration: none;
 background-color: #fff;
 border: 1px solid #ddd;
@@ -865,11 +796,11 @@ margin:0 -2px;
 font-size:1.2em;
 }
 a.page-numbers:hover{
-background:#e43624;
+background:#004063;
 color:#fff;
 }
 .page-numbers.current{
-background:#e43624;
+background:#004063;
 color:#fff;
 }
 /*ARCHIVIO*/
@@ -901,7 +832,7 @@ color:#777;
 
 /*SINGLE*/
 aside h3,.vota,.hsha,.hauth{
-color:#e43624;
+color:#004063;
 }
 @media (min-width: 992px){
 .vota,.hsha{
@@ -919,13 +850,13 @@ margin-right:20px;
 }
 
 .auth-block-single  a{
-color:#e43624;
+color:#004063;
 }
 
 .btncommenti{
 padding:10px 30px;
 color:#fafafa;
-background:#e43624;
+background:#004063;
 font-size:1.2em;
 }
 .btncommenti:hover,.btncommenti:focus{
@@ -954,10 +885,10 @@ width:75px;
 min-height:85px;
 }
 .vedianche .post-info a{
-color:#e43624;
+color:#004063;
 }
 .vedianche .post-info a:hover{
-color:#e43624;
+color:#004063;
 text-decoration:none;
 }
 .vedianche .post-meta{
@@ -969,12 +900,12 @@ font-size:.8em;
 
 /*COOKIE*/
 #impliedsubmit{
-background:#e43624;
+background:#004063;
 border:0;
 border-radius:0;
 }
 #impliedsubmit:hover,#impliedsubmit:focus{
-background:#e43624;
+background:#004063;
 outline:0;
 }
 /*COOKIE*/
@@ -982,7 +913,7 @@ outline:0;
 /*CONTATTI*/
 h4.head-contatti{
 font-size:24px;
-color:#e43624;
+color:#004063;
 }
 ul.contacts{
 list-style-type:none;
@@ -993,7 +924,7 @@ font-size:1.2em;
 margin:10px;
 }
 .contacts li .fa{
-background:#e43624;
+background:#004063;
 color: #FFF;
 border-radius: 50%;
 width: 35px;
@@ -1024,7 +955,7 @@ padding: 5px;
 	color: #fafafa;
 }
 #totop:hover {
-	color:#e43624;
+	color:#004063;
 }
 #totop.show {
     opacity: .7;
@@ -1046,7 +977,7 @@ top:50%;
 left:50%;
 transform:translate(-50%,-50%);
 font-size:5em;
-color:#e43624;
+color:#004063;
 }
 .ldn i.fa{
 display:inline!important;
