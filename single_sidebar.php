@@ -1,7 +1,8 @@
 						<div class="col-md-3 col-lg-2 col-lg-offset-1 col-md-offset-0 hidden-sm hidden-xs">
-							<aside id="sidebar">
+							<aside>
 								<h3 class="center">Vedi anche</h3>
 								<?php
+								$varcat='';
 								if(in_category('carte-prepagate')){$varcat='carte-prepagate';}
 								if(in_category('conti-correnti')){$varcat='carte-di-credito';}
 								if(in_category('conti-correnti')){$varcat='conti-correnti';}
@@ -56,7 +57,11 @@
 							<aside id="sdb">
 								<h3 class="center">Vedi anche</h3>
 								<?php
+								$varcat='';
 								if(in_category('carte-prepagate')){$varcat='carte-prepagate';}
+								if(in_category('conti-correnti')){$varcat='carte-di-credito';}
+								if(in_category('conti-correnti')){$varcat='conti-correnti';}
+								if(in_category('pagine-informative')){$varcat='pagine-informative';}
 								$this_post = $post->ID;
 								$args = array(
 									'category_name' => $varcat,

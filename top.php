@@ -18,7 +18,7 @@
 		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<!-- Web Fonts  -->
-		<link href='https://fonts.googleapis.com/css?family=Lato:400,700|Ovo' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:400,700|Montserrat:400,700&display=swap" rel="stylesheet">
 
 		<!-- Vendor CSS -->
 		<link rel="stylesheet" href="/carteconti/wp-content/themes/carteconti/css/bootstrap.min.css">

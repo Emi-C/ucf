@@ -3,33 +3,14 @@
 								<div class="row">
 									<?php
 									if ( have_posts() ) : while ( have_posts() ) : the_post();
+									$art=get_the_ID();
 									?>
 									<div class="col-md-3 col-lg-2 hidden-xs hidden-sm">
-										<aside class="sidebar" id="sidebar-share">
-											<h3 class="center">Share</h3>
-											<div class="tab-content tabshare center">
-
-<?php
-$art=get_the_ID();
-$conta = $wpdb->get_var("SELECT conta FROM {$wpdb->prefix}art_share where art=$art and social=1");
-if (!$conta) {$conta=0;}
-?>
-												<a id="soc1" class="shareico" href="http://www.facebook.com/share.php?u=<?php the_permalink(); ?>&title=<?php the_title(); ?>" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-facebook-official"></i></a><span class="soccount"><?php echo $conta; ?></span><br>
-<?php
-$conta = $wpdb->get_var("SELECT conta FROM {$wpdb->prefix}art_share where art=$art and social=2");
-if (!$conta) {$conta=0;}
-?>
-												<a id="soc2" class="shareico" href="http://twitter.com/share?text=<?php the_title(); ?>&url=<?php the_permalink(); ?>" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-twitter"></i></a><span class="soccount"><?php echo $conta; ?></span><br>
-<?php
-$conta = $wpdb->get_var("SELECT conta FROM {$wpdb->prefix}art_share where art=$art and social=3");
-if (!$conta) {$conta=0;}
-?>
-												<a id="soc3" class="shareico" href="https://plus.google.com/share?url=<?php the_permalink(); ?>" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-google-plus"></i></a><span class="soccount"><?php echo $conta; ?></span><br>
-<?php
-$conta = $wpdb->get_var("SELECT conta FROM {$wpdb->prefix}art_share where art=$art and social=4");
-if (!$conta) {$conta=0;}
-?>
-												<a id="soc4" class="shareico" href="http://www.linkedin.com/shareArticle?mini=true&url=<?php the_permalink(); ?>&title=<?php the_title(); ?>&source=http://www.unicoffee.it" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-linkedin"></i></a><span class="soccount"><?php echo $conta; ?></span>
+									<aside>
+											<h3 class="center">Naviga il sito</h3>
+											<div class="tab-content">
+												<a href="/share" class="navileft">link test 1</a>
+												<a href="/share" class="navileft">link test 1</a>
 											</div>
 										</aside>
 									</div>
@@ -38,6 +19,7 @@ if (!$conta) {$conta=0;}
 
 										<?php the_content();?>
 										</div>
+										<hr>
 										<div class="center">
 											<h3 class="vota">VOTA QUESTO ARTICOLO!</h3>
 <?php
@@ -57,8 +39,8 @@ if($conta!=0){$media=$media/$conta;}
 											<span class="vresult hidden-xs"> <?php echo $conta; ?> votanti totali, media: <?php echo round($media, 2) ?></span>
 											<p class="vresult visible-xs"> <?php echo $conta; ?> votanti totali, media: <?php echo round($media, 2) ?></p>
 										</div>
-										<div class="center post-share hidden-lg hidden-md push-top">
-											<h3 class="hsha">SHARE!</h3>
+										<div class="center post-share push-top">
+											<h3 class="hsha">SHARE!</h3><br>
 <?php
 $conta = $wpdb->get_var("SELECT conta FROM {$wpdb->prefix}art_share where art=$art and social=1");
 if (!$conta) {$conta=0;}
